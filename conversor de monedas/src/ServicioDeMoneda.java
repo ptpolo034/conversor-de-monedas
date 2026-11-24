@@ -5,7 +5,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class ServicioDeMoneda {
-    private final String apiKey = "4c5acccf7450cef1af9bfd6f";
     private final String baseUrl = "https://open.er-api.com/v6/latest/";
 
     public double getExchangeRate(String from, String to) throws IOException {
